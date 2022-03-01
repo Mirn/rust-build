@@ -254,7 +254,7 @@ fi
 
 if [[ ! -z "${EXTRA_CRATES}" ]]; then
     echo "Installing additional extra crates: ${EXTRA_CRATES}"
-    cargo install ${EXTRA_CRATES}
+    #cargo install ${EXTRA_CRATES}
 fi
 
 if [ "${CLEAR_DOWNLOAD_CACHE}" == "YES" ]; then
