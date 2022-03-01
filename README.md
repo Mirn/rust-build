@@ -17,6 +17,8 @@ The installation process of ready to use custom build of Rust and LLVM:
 
 ### Rust on Xtensa Installation for macOS and Linux
 
+_Warning: "ldproxy" & "cargo-espflash" crates must be installed before!_
+
 Following instructions are specific for ESP32 and ESP32-S series based on Xtensa architecture.
 
 Instructions for ESP-C series based on RISC-V architecture are described in document for [ESP32-C3](#esp32-c3).
